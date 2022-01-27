@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="form">
+        <label for="city">
+            <span>Enter city:</span>
+            <input type="text" name="city" id="city" required>
+        </label>
+        <label for="state">
+            <span>Enter state:</span>
+            <input type="text" name="state" id="state" required pattern="[A-Z]{2}">
+        </label>
+        <button>Submit</button>
+    </div>
+    <div id="output">
+        <div id="location">Location: </div>
+        <div id="main">Weather: </div>
+        <div id="temp">Temperature (F): </div>
+        <div id="temp-feels">Feels like: </div>
+        <div id="wind">Wind (meters/sec): </div>
+        <div id="clouds">Clouds: </div>
+    </div>
+</body>
+</html>
