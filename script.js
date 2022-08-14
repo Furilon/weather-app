@@ -1,6 +1,6 @@
 async function getData(city, state) {
     const url =
-     `http://api.openweathermap.org/data/2.5/weather?q=${city},${state}&appid=fd80244eb438a5e523f948e21723406f`
+     `http://api.openweathermap.org/data/2.5/weather?q=${city},${state},US&appid=fd80244eb438a5e523f948e21723406f`
 
     console.log(url)
 
